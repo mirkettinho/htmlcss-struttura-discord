@@ -120,3 +120,67 @@ span{
   border: 2px dashed black;
 }
 
+.section-franco{
+  height: 600px;
+  background-color: #d3d3d3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-ted{
+  height: 1000px;
+  background-color: #d3d3d3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blocco3{
+  height: 900px;
+  background-color: #228b22;
+  width: 100%;
+  border: 2px dashed black;
+}
+
+.section-bob{
+  background-color: #23272a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid white;
+}
+
+.blocco4{
+  height: 500px;
+  width: 30%;
+  background-color: #ffc0cb;
+  border: 2px dashed black;
+}
+
+.blocco5{
+  width: 70%;
+  height: 500 px;
+  background-color: red;
+  border: 2px dashed black;
+}
+
+/* .divisione{
+  width: calc(100% / 4);
+  height: 500px;
+  background-color: #add8e6;
+  border: 2px dashed black;
+} */
+
+footer{
+  background-color: #23272a;
+  padding-top: 20px;
+  
+}
+
+.fine{
+  height: 70px;
+  background-color: #7fffd4;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+}
+
