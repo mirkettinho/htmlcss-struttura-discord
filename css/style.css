@@ -33,19 +33,21 @@ nav{
   width: 70%;
   background-color: #daa520;
   border: 2px dashed black;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul{
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
+  align-items: center;
   
 }
 
 nav ul li{
   vertical-align: 30px;
-  line-height: 30px;
   margin-right: 10px;
+  
   
   
 }
@@ -79,6 +81,7 @@ span{
   width: 15%;
   border: 2px dashed black;
   background-color: #daa520;
+  text-align: end;
 }
 
 .jumbodrill{
