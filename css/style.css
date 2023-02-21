@@ -1,3 +1,4 @@
+/* general */
 *{
   padding: 0;
   margin: 0;
@@ -5,211 +6,127 @@
 }
 
 body{
-  ;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
-  width: 70%;
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
-  
 }
 
-.navbar{
-  display: flex;
-  height: 30px;
-  justify-content: space-between;
+.bg-grey{
+  background-color: #F6F6F6;
 }
 
+/* header */
 header{
-  height: 60px;
+  height: 80px;
   background-color: #add8e6;
-  justify-content: space-between;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  
 }
 
-nav{
-  width: 70%;
-  background-color: #daa520;
-  border: 2px dashed black;
+header .container{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
-nav ul{
+header .menu ul{
   display: flex;
   list-style: none;
-  align-items: center;
-  
 }
 
-nav ul li{
-  vertical-align: 30px;
-  margin-right: 10px;
-  
-  
-  
+header .menu ul li{
+  margin: 0 15px;
 }
-nav ul li a{
+
+header .menu ul li a{
   text-decoration: none;
-  color: black;
-  
 }
 
-.logo{
-  width: 15%;
-  border: 2px dashed black;
-  align-items: center;
-  background-color: #daa520;
-  
-  
-  
-}
 
-span{
-  /* height: 110; */
-  width: 100%;
-  align-items: center;
-  vertical-align: 30px;
-  line-height: 30px;
-  
-  
-}
-
-.accesso{
-  width: 15%;
-  border: 2px dashed black;
-  background-color: #daa520;
-  text-align: end;
-}
-
-.jumbodrill{
-  height: 400px;
-  background-color: #00008b;
-  padding-bottom: 40px;
-  padding-top: 40px;
-}
-
-.section-jumbo{
-  width: 1000px;
-  height: 100%;
-  background-color: #ee82ee;
-  margin: 0 auto;
-  border: 2px dashed black;
-}
-
-.section-paolo{
-  height: 600px;
-  background-color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  
-}
-
-.cont{
+/* jumbodrill */
+.jumbotron{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #00008b;
 }
 
-.blocco1{
-  height: 500px;
-  background-color: #1e90ff;
-  width: 60%;
-  display: inline-block;
-  border: 2px dashed black;
-}
-
-.blocco2{
-  height: 500px;
-  background-color: #ffc0cb;
+.jumbotron .content{
   width: 40%;
-  border: 2px dashed black;
+  background-color: #ee82ee;
+  height: 300px;
 }
 
-.section-franco{
-  height: 600px;
-  background-color: #d3d3d3;
-  padding-top: 50px;
-  padding-bottom: 50px;
+
+/* main */
+
+section{
+  padding: 30px 0;
+  min-height: 400px;
 }
 
-.section-ted{
-  height: 1000px;
-  background-color: #d3d3d3;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.blocco3{
-  height: 900px;
+section .container{
+  display: flex;
   background-color: #228b22;
-  width: 100%;
-  border: 2px dashed black;
+  height: 400px;
 }
 
-.section-bob{
-  background-color: #23272a;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-bottom: 1px solid white;
+section .container .image{
+  width: 60%;
+  background-color: #1e90ff;
 }
 
-.blocco4{
-  width: 30%;
-  background-color: #f08080;
-  border: 2px dashed black;
+section .container .text{
+  width: 40%;
+  background-color: #ffc0cb;
 }
 
-.blocco5{
-  width: 70%;
-  height: 500 px;
-  background-color: #20b2aa;
-  border: 2px dashed black;
+section.bottom .container{
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.blocco6{
-  width: 100%;
-  height: 500px;
-  background-color: #20b2aa;
-  border: 2px dashed white;
-  
-}
+/* footer */
 
 footer{
-  background-color: #23272a;
-  padding-top: 30px;
-  
-  
+  background-color: #24272A;
 }
 
-.fine{
-  height: 70px;
-  background-color: #7fffd4;
-  
-}
-
-.flex{
+footer .top{
   display: flex;
+  height: 300px;
+  /* background-color: rgb(109, 208, 79);  */
+  
 }
 
+footer .top .col-social{
+  width: 40%;
+  height: 100%;
+  background-color: #f08080;
+}
 
-.logo-footer{
+footer .top .col-menu{
+  width: 15%;
+  height: 100%;
+  background-color: #20b2aa;
+  border: 2px dashed black;
+  
+}
+
+footer .bottom{
   display: flex;
   justify-content: space-between;
-  padding: 15px 0;
+  height: 100px;
+  background-color: #7fffd4;
 }
 
-.log{
-  background-color: #ffb6c1;
-  width: 40px;
-  font-size: 18px;
-  text-align: center;
-  border: 2px dashed black;
+.top{
+  margin-bottom: 10px;
+  padding-top: 10px;
 }
 
-button{
-  padding: 10px;
-  background-color: #ffb6c1;
-  border: 2px dashed black;
-  
-}
